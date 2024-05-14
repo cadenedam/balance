@@ -1,0 +1,42 @@
+#dash-input {
+    width: 300px;
+    margin: 0 auto;
+    float: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+#input-area input {
+    padding: 5px;
+    margin: 5px;
+}
+
+#input-area button {
+    padding: 5px;
+    margin: 5px;
+}
+
+#transactions-container {
+    column-count: 1;
+    column-gap: 20px;
+    float: left;
+}
+
+.transaction {
+    break-inside: avoid;
+    width: 200px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #eec87d;
+    border-radius: 5px;
+}
+
+#calculations {
+    width: 400px;
+    margin: 0 auto;
+    float: right;
+    padding: 20px;
+    background-color: #83a7c6;
+    border-radius: 10px;
+}

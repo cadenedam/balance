@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Balance</title>
+</head>
+<body>
+    <div id="dash-input">
+        <div id="dashboard">
+            <div>
+                <h2>Last Deposit</h2>
+                <p>
+                    $ <span id="deposit">0</span>
+                </p>
+            </div>
+    
+            <div>
+                <h2>Last Withdrawal</h2>
+                <p>
+                    $ <span id="withdraw">0</span>
+                </p>
+            </div>
+    
+            <div>
+                <h2>Balance</h2>
+                <p>
+                    $ <span id="balance">0</span>
+                </p>
+            </div>
+
+            <div>
+                <h2>Debt</h2>
+                <p>
+                    $ <span id="debt">0</span>
+                </p>
+            </div>
+    
+        </div>
+    
+        <div id="input-area">
+            <div>
+                <h3>Deposit</h3>
+                <input type="number" id="deposit-input" placeholder="Deposit">
+                <br>
+                <input type="text" id="deposit-note" placeholder="Note">
+                <br>
+                <button id="deposit-btn">Deposit</button>
+            </div>
+    
+            <div>
+                <h3>Withdraw</h3>
+                <input type="number" id="withdraw-input" placeholder="Withdraw">
+                <br>
+                <input type="text" id="withdraw-note" placeholder="Note">
+                <br>
+                <button id="withdraw-btn">Withdraw</button>
+            </div>
+    
+            <div>
+                <h3>Set Balance</h3>
+                <input type="number" id="set-balance-input" placeholder="Set Balance">
+                <br>
+                <button id="set-balance-btn">Set Balance</button>
+            </div>
+
+            <div>
+                <h3>Add Debt</h3>
+                <input type="number" id="debt-input" placeholder="Add Debt">
+                <br>
+                <input type="text" id="debt-note" placeholder="Note">
+                <br>
+                <button id="debt-btn">Add Debt</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="transactions-container"></div>
+
+    <div id="calculations">
+        <div>
+            <h2>Debt gone in...</h2>
+            <input type="number" id="income" placeholder="Income per day">
+            <br>
+            <button id="income-btn">Submit</button>
+            <p>
+                <span id="no-debt">0</span>
+            </p>
+            <h3>days!</h3>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
